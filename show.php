@@ -3,7 +3,7 @@
 @include __DIR__ . '/partials/show/server.php';
  ?>
 
-  <body>
+
     <div class="container">
       <a href="index.php">Back</a>
       <ul class="list-group">
@@ -13,5 +13,7 @@
         <li class="list-group-item">Numero di letti: <?php echo $row['beds']; ?></li>
       </ul>
     </div>
-  </body>
-</html>
+
+<?php
+@include __DIR__ . '/partials/template/footer.php';
+?>
