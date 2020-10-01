@@ -1,6 +1,6 @@
 <?php
-@include __DIR__ . '/partials/template/_header.php';
-@include __DIR__ . '/partials/home/server.php';
+include __DIR__ . '/partials/template/_header.php';
+include __DIR__ . '/partials/home/server.php';
  ?>
 
     <div class="container">
